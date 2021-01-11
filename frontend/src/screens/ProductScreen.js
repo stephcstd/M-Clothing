@@ -24,7 +24,7 @@ export default function ProductScreen(props){
     return(
         <div>
             {loading ? (<LoadingBox></LoadingBox>)
-            :error ? (<MessageBox error="danger">{error}</MessageBox>)
+            :error ? (<MessageBox variant="danger">{error}</MessageBox>)
             : (
                 <div>
                     <Link to="/">back to result</Link>
