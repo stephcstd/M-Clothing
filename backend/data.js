@@ -26,7 +26,7 @@ const data={
             image: '/images/nike-tshirt.jpg',
             price: 120,
             countInStock: 20,
-            branch: 'Nike',
+            brand: 'Nike',
             rating: 4.5,
             numReview: 10,
             description: 'high quality product'
@@ -38,7 +38,7 @@ const data={
             image: '/images/adidas-tshirt.jpg',
             price: 100,
             countInStock: 0,
-            branch: 'Adidas',
+            brand: 'Adidas',
             rating: 4,
             numReview: 20,
             description: 'high quality product'
@@ -50,7 +50,7 @@ const data={
             image: '/images/zara-tshirt.jpg',
             price: 150,
             countInStock: 60,
-            branch: 'Zara',
+            brand: 'Zara',
             rating: 4.5,
             numReview: 15,
             description: 'high quality product'
@@ -62,7 +62,7 @@ const data={
             image: '/images/reserved-tshirt.jpg',
             price: 120,
             countInStock: 69,
-            branch: 'Reserved',
+            brand: 'Reserved',
             rating: 3.5,
             numReview: 9,
             description: 'high quality product'
@@ -74,7 +74,7 @@ const data={
             image: '/images/h&m-tshirt.jpg',
             price: 170,
             countInStock: 12,
-            branch: 'H&M',
+            brand: 'H&M',
             rating: 3,
             numReview: 15,
             description: 'high quality product'
@@ -86,7 +86,7 @@ const data={
             image: '/images/cotton-on-tshirt.jpg',
             price: 180,
             countInStock: 65,
-            branch: 'Cotton On',
+            brand: 'Cotton On',
             rating: 4.5,
             numReview: 5,
             description: 'high quality product'
