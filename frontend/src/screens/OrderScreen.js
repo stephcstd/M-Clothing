@@ -47,7 +47,7 @@ export default function OrderScreen(props) {
         document.body.appendChild(script);
       };
 
-      if (!order || successPay || (order && order._id !== orderId)) {
+      if (!order || successPay || successDeliver || (order && order._id !== orderId)) {
         dispatch({ type: ORDER_PAY_RESET });
         dispatch({ type: ORDER_DELIVER_RESET });
         dispatch(detailsOrder(orderId));
