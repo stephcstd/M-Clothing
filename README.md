@@ -19,4 +19,4 @@ BUGS:
   na lang muna haha xd
 
 NOTE:
-  create your own database
+  create your own database and setup that paypal sht
