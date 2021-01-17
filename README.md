@@ -17,3 +17,6 @@ BUGS:
   di ko malagay yung name ng user na umorder sa
   order list screen nag-eerror kaya tinangggal ko
   na lang muna haha xd
+
+NOTE:
+  create your own database
