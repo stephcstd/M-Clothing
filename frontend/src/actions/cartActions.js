@@ -16,16 +16,16 @@ export const addToCart = (productId, qty) => async (dispatch, getState) => {
       price: data.price,
       countInStock: data.countInStock,
       product: data._id,
+      seller: data.seller,
       qty,
     },
   });
   localStorage.setItem('cartItems', JSON.stringify(getState().cart.cartItems));
 };
 
-//create removeFromCart function
 export const removeFromCart = (productId) => (dispatch, getState) => {
-    dispatch({ type: CART_REMOVE_ITEM, payload: productId });
-    localStorage.setItem('cartItems', JSON.stringify(getState().cart.cartItems));
+  dispatch({ type: CART_REMOVE_ITEM, payload: productId });
+  localStorage.setItem('cartItems', JSON.stringify(getState().cart.cartItems));
 };
 
 export const saveShippingAddress = (data) => (dispatch) => {
